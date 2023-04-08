@@ -1,0 +1,23 @@
+@media screen and (max-width: 992px) {
+    .nav--one {
+        padding-left: 220px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .nav--one {
+        padding-left: 100px;
+    }
+    .btn {
+       display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media (max-width: 479px) {
+    .btn {
+        display: none;
+    }
+}
