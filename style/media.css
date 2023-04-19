@@ -1,21 +1,5 @@
-.container {
-    max-width: 1046px;
-    padding: 0 25px;
-    margin: 0 auto;
-    box-sizing: content-box;
-}
+
 
 
 @media (max-width: 414px) {
-    .nav--one {
-        padding-left: 220px;
-    }
-    .btn {
-        width: 238px;
-        height: 66px;
-        background: #27D1CE;
-        border-radius: 6px;
-        border: none;
-        display: none;
-    }
 }
