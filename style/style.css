@@ -3,48 +3,46 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     background: linear-gradient(180deg, rgba(23, 26, 35, 2) 0%, #171A23 100%);
     min-height: 100vh;
 }
-
 @font-face {
     font-family: Gilroy ;
     src: url("../fonts/gilroy-regular.ttf");
 }
-
 @font-face {
     font-family: VerbenaC ;
     src: url("../fonts/verbenac.otf");
 }
-
 @font-face {
     font-family: Circe ;
     src: url("../fonts/circe_bold.ttf");
 }
-
 @font-face {
     font-family: RoadRadio ;
     src: url("../fonts/roadradio_bold.otf");
 }
-
-a {
+a,p,h2,h3,h4,h5,h6 {
     text-decoration: none;
+    font-family: Gilroy ,sans-serif;
 }
-
-
+h1{
+    font-family: RoadRadio,sans-serif;
+}
+a:hover {
+    color: #FFFFFF;
+}
 .wrapper {
     min-height: 100%;
     overflow: hidden;
     display: flex;
     flex-direction: column;
 }
-
 .container {
     max-width: 1046px;
-    padding: 0 25px;
     margin: 0 auto;
+    padding: 0 20px;
     box-sizing: content-box;
 }
 
@@ -58,73 +56,53 @@ a {
     z-index: 50;
     padding-top: 20px;
 }
-
-.nav {
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
-.nav--one {
-    padding-left: 300px;
-}
-
-
-.page {
+.page{
     display: flex;
+    justify-content: center;
     align-items: center;
 }
-
-
-.page .pro {
-    font-family: Gilroy, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    color: #FFFFFF;
+.nav--one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
-.page .link {
+.link{
     width: 6px;
     height: 6px;
     background: #27D1CE;
     box-shadow: 0 0 4px rgba(39, 209, 206, 0.5);
-    border-radius: 50%;
-    margin: 0 10px 0 0;
+    border-radius:50%;
+    margin: -16px 7px 0 5px;
 }
-
-.page__one {
-    margin: 3px 0 0 0;
+.step{
+    margin: 10px 80px 0 0 ;
 }
-
-.page__one .fa-phone {
-    margin: 0 9px 0 0;
+.pro{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 10px;
     color: #FFFFFF;
 }
-
-.page__one .tel {
-    font-family: Gilroy, sans-serif;
-    font-style: normal;
+.tel-block{
     font-weight: 700;
     font-size: 23px;
-    line-height: 29px;
+    line-height: 22px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
     color: #FFFFFF;
 }
-
-.btn {
-    width: 238px;
-    height: 66px;
+.btn{
+    width: 230px;
+    height: 60px;
     background: #27D1CE;
     border-radius: 6px;
-    border: none;
 }
-
-.btn a {
-    font-family: Circe, sans-serif;
-    font-style: normal;
+.btn a{
     font-weight: 800;
     font-size: 14px;
     line-height: 21px;
@@ -139,7 +117,6 @@ a {
 /*----main-------------------------------------------------------------------------*/
 
 #main {
-    flex: 1 1 auto;
     background: url("../img/image 16.svg") no-repeat center/cover;
     min-height: 100vh;
 }
@@ -183,7 +160,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
 }
 
 .seven {
@@ -486,7 +462,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /*flex-wrap: wrap;*/
+    flex-flow:  wrap;
 }
 
 .current {
@@ -937,4 +913,10 @@ a {
     line-height: 16px;
     color: #FFFFFF;
     opacity: 0.9;
+}
+
+@media (max-width: 400px) {
+    .nav--one {
+        padding-left: 165px;
+    }
 }
