@@ -1,5 +1,127 @@
-
-
-
 @media (max-width: 414px) {
+    .logo {
+        width: 120px;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .you {
+        font-size: 11px;
+    }
+
+    .hand {
+        font-size: 17px;
+    }
+
+    .link {
+        margin: -6px 5px 0 0;
+    }
+
+    .fa-phone {
+        margin: 0 0;
+    }
+
+    .fas-hai {
+        margin: -20px 0 0 0;
+    }
+
+    .big {
+        margin: 0 0 0 0;
+    }
+
+    .nav {
+        margin: 5px 0 0 0;
+    }
+
+    .sit {
+        width: 379px;
+        font-size: 40px;
+    }
+
+    .ced {
+        width: 314px;
+        font-size: 14px;
+    }
+
+    #btn {
+        width: 196px;
+        height: 50px;
+        font-size: 14px;
+    }
+
+    .logon {
+        font-size: 14px;
+    }
+
+    .big-ipsa {
+        width: 338px;
+        font-size: 40px;
+    }
+
+    .project {
+        width: 344px;
+        font-size: 14px;
+    }
+
+    .quasi img {
+        margin: -3px 5px 0 0;
+    }
+
+    .ret {
+        width: 350px;
+    }
+
+    .black {
+        width: 324px;
+        height: 235px;
+        margin: 20px 0 0 0;
+    }
+
+    .image {
+        width: 291px;
+        margin: 20px 23px 24px 10px;
+    }
+
+    .code {
+        position: absolute;
+        margin-left: 120px;
+        margin-top: 228px;
+    }
+
+    .img {
+        width: 45px;
+        margin: 36px 0 0 290px;
+    }
+
+    .color h6 {
+    font-size: 11px;
+    }
+    .color div{
+        margin: -26px 4px 0 0;
+    }
+    .amet{
+        width: 339px;
+        font-size: 22px;
+        line-height: 29px;
+    }
+    .eum{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .vel{
+        text-align: center;
+    }
+    .wrung__one {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 0;
+        flex-wrap: wrap;
+    }
+    .current {
+        margin-bottom: 140px;
+    }
 }

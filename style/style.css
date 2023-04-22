@@ -45,25 +45,19 @@ a:hover {
     box-sizing: content-box;
 }
 /*----header-------------------------------------------------------------------------*/
-#header {
+#header{
     position: absolute;
-    width: 100%;
-    left: 0;
     top: 0;
-    z-index: 50;
-    padding-top: 20px;
+    left: 0;
+    right: 0;
+    padding-top: 10px;
 }
-.navbar {
+.navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.page{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.nav--one {
+.nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -71,24 +65,36 @@ a:hover {
 .link{
     width: 6px;
     height: 6px;
+    border-radius: 50%;
     background: #27D1CE;
     box-shadow: 0 0 4px rgba(39, 209, 206, 0.5);
-    border-radius:50%;
-    margin: -16px 7px 0 5px;
+    margin: 0 5px 0 0;
 }
-.step{
-    margin: 10px 80px 0 0 ;
+.lani-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.pro{
+.you{
+    font-family: Gilroy,sans-serif;
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 10px;
+    line-height: 16px;
     color: #FFFFFF;
 }
-.tel-block{
+.fa-phone{
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.big{
+    margin: 0 50px 0 0;
+}
+.hand{
+    font-family: Gilroy,sans-serif;
     font-weight: 700;
-    font-size: 23px;
-    line-height: 22px;
+    font-size: 24px;
+    line-height: 29px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -98,14 +104,22 @@ a:hover {
     height: 60px;
     background: #27D1CE;
     border-radius: 6px;
+    border: none;
 }
-.btn a{
+.btn a {
+    font-family: Circe, sans-serif;
+    font-style: normal;
     font-weight: 800;
     font-size: 14px;
     line-height: 21px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+.forms{
+    opacity: 0.15;
+    border: 1px solid #FFFFFF;
+    margin: 1rem 0 0 0 ;
 }
 
 
@@ -127,6 +141,7 @@ a:hover {
 }
 
 .sit {
+    width: 769px;
     font-family: RoadRadio, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -143,6 +158,7 @@ a:hover {
 }
 
 .ced {
+    width: 570px;
     font-family: Gilroy, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -250,7 +266,8 @@ a:hover {
     margin-bottom: 20px;
 }
 
-.big {
+.big-ipsa {
+    width: 474px;
     font-family: RoadRadio, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -260,6 +277,7 @@ a:hover {
 }
 
 .project {
+    width: 449px;
     font-family: Gilroy, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -276,10 +294,15 @@ a:hover {
 .quasi {
     display: flex;
     align-items: center;
+    justify-content: center;
     margin: 20px 0 0 0;
+}
+.quasi img {
+    margin: -3px 5px 0 0;
 }
 
 .ret {
+    width: 476px;
     font-family: Gilroy, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -303,6 +326,7 @@ a:hover {
     font-size: 14px;
     line-height: 120%;
     color: #a29e9e;
+    margin: -17px 0 0 0;
 }
 
 .black {
@@ -364,7 +388,7 @@ a:hover {
 
 .color div {
     color: #FFFFFF;
-    padding: 10px 0 0 0;
+    padding: -12px 0 0 0;
 }
 
 
@@ -392,6 +416,7 @@ a:hover {
 }
 
 .amet {
+    width: 690px;
     font-family: RoadRadio, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -453,6 +478,7 @@ a:hover {
 /*----block-------------------------------------------------------------------------*/
 
 #block {
+    padding: 100px 0 0 0;
 }
 
 .wrung {
@@ -560,7 +586,7 @@ a:hover {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 18px;
+    line-height: 10px;
     text-align: center;
     letter-spacing: 0.05em;
     text-transform: uppercase;
@@ -572,7 +598,7 @@ a:hover {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 18px;
+    line-height: 10px;
     text-align: center;
     letter-spacing: 0.05em;
     text-transform: uppercase;
