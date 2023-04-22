@@ -96,10 +96,10 @@
     }
 
     .color h6 {
-    font-size: 11px;
+    font-size: 10px;
     }
     .color div{
-        margin: -26px 4px 0 0;
+        margin: -8px 3px 0 0;
     }
     .amet{
         width: 339px;
@@ -123,5 +123,17 @@
     }
     .current {
         margin-bottom: 140px;
+    }
+    .have{
+        display: none;
+    }
+    .back{
+        font-size: 24px;
+    }
+    .leave-one{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
     }
 }

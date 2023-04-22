@@ -681,9 +681,13 @@ a:hover {
 
 .back--one {
     margin-top: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .back {
+    width: 605px;
     font-family: RoadRadio, sans-serif;
     font-style: normal;
     font-weight: 400;
