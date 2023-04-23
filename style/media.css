@@ -24,7 +24,7 @@
     }
 
     .fas-hai {
-        margin: -20px 0 0 0;
+        margin: -13px 0 0 0;
     }
 
     .big {
@@ -114,13 +114,6 @@
     .vel{
         text-align: center;
     }
-    .wrung__one {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-top: 0;
-        flex-wrap: wrap;
-    }
     .current {
         margin-bottom: 140px;
     }
@@ -135,5 +128,49 @@
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
+    }
+    .tool {
+        margin-top: -100px;
+    }
+    #main {
+        min-height: 80vh;
+    }
+    .leave {
+        margin: 0 0 20px 20px;
+    }
+
+    .blacks {
+        font-size: 35px;
+    }
+    .tel{
+        font-size: 18px;
+        line-height: 22px;
+        color: #FFFFFF;
+    }
+    .email{
+        font-size: 14px;
+    }
+    .map{
+        font-size: 14px
+    }
+    .online{
+        font-size: 14px
+    }
+    .gle1 {
+       display: none;
+    }
+    .gle{
+        width: 330px;
+        height: 230px;
+    }
+    .iframe{
+        width: 330px;
+        height: 230px;
+    }
+    .duke{
+        font-size: 10px;
+    }
+    .worker{
+        font-size: 10px;
     }
 }

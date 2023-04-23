@@ -492,6 +492,7 @@ a:hover {
     position: relative;
     z-index: 2;
     margin-top: -100px;
+    margin-bottom: 150px;
 }
 
 .image__one {
@@ -566,19 +567,13 @@ a:hover {
     cursor: pointer;
 }
 
-.wrung__one {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 200px;
-}
 
 .tool {
     width: 310px;
     height: 380px;
     background: linear-gradient(90deg, #F5318D 0%, #FF5F41 96.67%);
     border-radius: 6px;
-    margin-top: -100px;
+    margin-top: -250px;
 }
 
 .questions {
@@ -870,6 +865,10 @@ a:hover {
 }
 
 .gle {
+    width: 90%;
+    margin-bottom: 20px;
+}
+.gle1 {
     width: 90%;
     margin-bottom: 20px;
 }
