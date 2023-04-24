@@ -56,6 +56,8 @@ svg.onclick = () => {
 }
 
 
+
+
 $('.slider').slick({
     infinite: true,
     slidesToShow: 3,
